@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4D48F3"
+        android:id="@+id/fragmentFirst"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+
+        android:text="Fragment 1 aç"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fragmentLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#FB3737"
+        android:layout_marginBottom="5dp"
+        android:text="Fragment 2 aç"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FrameLayout"
+        />
+
+
+</LinearLayout>
